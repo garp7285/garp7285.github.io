@@ -5,7 +5,7 @@ html {
 	padding: 0;
 	font-family: 'Abel', sans-serif;
 	background-color: #c0c0c0;
-
+	/*font-size: 2vw;*/
 }
 body{
 	padding:0;
@@ -15,7 +15,7 @@ body{
 section {
 	background-color:#f0f0f0;
 	overflow: auto;
-	padding: 3% 5%;
+	padding: 3% 4%;
 	border:solid;
 	border-width: 15px 0px;
 	border-color: #c0c0c0;
@@ -40,7 +40,7 @@ section {
 
 
 .contact{
-	width: 45px;
+	width: 8%;
 
 }
 
@@ -64,11 +64,6 @@ h2{
 	border-color: #b0b0b0;
 }
 h3{
-
-	margin: 0px;
-	padding: 0px;
-}
-h4{
 
 	margin: 0px;
 	padding: 0px;
