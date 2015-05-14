@@ -1,74 +1,148 @@
 	<!DOCTYPE html>
 	<html>
 	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<title>Curriculum Vitae</title>
-		<link rel="stylesheet" href="style.css">
-		<link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
-	</head>
-	<body>
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
 
-		<section>
+		<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="template.css">
+<link rel="stylesheet" href="style.css">
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+	
+	
+
+</head>
+<body>
+	<section class="container">
+		
+		<section class= "jumbotron">
 			
-			<img class = "photo" src="img/profile.jpg" alt="">
-			
-			<div class="mainsec">
-				<h1>Paul Galicia</h1>
+			<div class="row">
 				
-				<a href="mailto:garp7285@gmail.com"><img class="contact" src="img/mail.png" alt=""></a>
+				<div class="col-md-4 col-sm-5 col-xs-6">
+					<img src="img/profile.jpg"  alt="" class="img-responsive img-circle">
+					
+				</div>
 
-				<a href="https://mx.linkedin.com/in/paulgalicia"><img class="contact" src="img/linkedin.png" alt=""></a>
-				<a href="https://github.com/garp7285"><img class="contact" src="img/github.png" alt=""></a>
+				<div class=" container col-md-6 col-sm-7 col-xs-6">
+					<h1>Paul Galicia</h1>
 
-				<p>Arquitecto y desarrollador SOA</p>
-				<p>Monterrey, México</p>
+
+					
+					<div class="row">
+						<div class="col-md-2 col-sm-3 col-xs-3">
+							
+							<a href="mailto:garp7285@gmail.com"><img src="img/mail.png" alt="" class="img-responsive img-circle"></a>
+						</div>
+						<div class="col-md-2 col-sm-3 col-xs-3">
+							
+							<a href="https://mx.linkedin.com/in/paulgalicia"><img src="img/linkedin.png" alt="" class="img-responsive img-circle"></a>
+						</div>
+						<div class="col-md-2 col-sm-3  col-xs-3">
+							
+							<a href="https://github.com/garp7285"><img src="img/github.png" alt="" class="img-responsive img-circle"></a>
+						</div>
+
+
+
+
+					</div>
+
+
+					<h3>Arquitecto y desarrollador SOA</h3>
+					<p>Monterrey, México</p>
+
+				</div>
 			</div>
 
 		</section>
 
-
-		<section>
-			<h2>Experiencia</h2>
-			<div  class="text">
-				<h3>Arquitecto y desarrollador SOA</h3>
-				<p>Tecnológico de Monterrey</p>
-				<p>Monterrey, Nuevo León </p>
-				<p>Marzo 2013 – Actualidad </p>
-				<p>Desarrollo de interfaces de integración con Websphere Message Broker.</p>
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h3 class="white-text">
+					Experiencia
+				</h3>
 			</div>
-			<div  class="text">
-				<h3>Prácticas Profesionales</h3>
-				<p>Tenaris Tamsa</p>
-				<p>Veracruz, Veracruz </p>
-				<p>Junio 2012 – Agosto 2012 </p>
-				<p>Prácticas profesionales en el área de mantenimiento. Levantamiento en campo de componentes eléctricos y electrónicos de Grúas Acería</p>
-			</div>
-		</section>
+			<div class="panel-body">
+				<div class="row">
+
+					<div class="col-md-6 col-sm-6 col-xs-12">
+						<h4>Arquitecto y desarrollador SOA</h4>
+						<p>Tecnológico de Monterrey</p>
+						<p>Monterrey, Nuevo León </p>
+						<p>Marzo 2013 – Actualidad </p>
+						<p>Desarrollo de interfaces de integración con Websphere Message Broker.</p>
 
 
+					</div>
 
-		<section>
-			<h2>Educación</h2>
-			<div class="text">
-				<h3>Ingeniería en Tecnologías Electrónicas</h3>
-				<p>Tecnológico de Monterrey</p>
-				<p>Puebla, Puebla</p>
-				<p>Ago 2007 – Dic 2012</p>
-				<p>Concentracíon en Robótica Aplicada</p>
+					<div class="col-md-6 col-sm-6 col-xs-12">
+						<h4>Prácticas Profesionales</h4>
+						<p>Tenaris Tamsa</p>
+						<p>Veracruz, Veracruz </p>
+						<p>Junio 2012 – Agosto 2012 </p>
+						<p>Prácticas profesionales en el área de mantenimiento. Levantamiento en campo de componentes eléctricos y electrónicos de Grúas Acería</p>
+
+
+					</div>
+
+				</div>
+
+
 				
 			</div>
-		</section>
+		</div>
+		
 
+		<div class="row">
 
+			<div class="col-md-6 col-sm-12 col-xs-12">
 
-		<section>
-			<h2>Habilidades</h2>
-			<div class="text">
-				<p>Idioma: Ingles, 567 puntos TOEFL.</p>
-				<p>Manejo de Software: Websphere Message Broker, SoapUI, Toad. </p>
-				<p>Otros:ESQL, PL/SQL, Java, SOA, ESB, SOAP, XML</p>
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h3 class="white-text">
+							Educación
+						</h3>
+					</div>
+					<div class="panel-body">
+						<h4>Ingeniería en Tecnologías Electrónicas</h4>
+						<p>Tecnológico de Monterrey</p>
+						<p>Puebla, Puebla</p>
+						<p>Ago 2007 – Dic 2012</p>
+						<p>Concentracíon en Robótica Aplicada</p>
+					</div>
+				</div>
 			</div>
+			<div class="col-md-6 col-sm-12 col-xs-12">
+
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h3 class="white-text">
+							Habilidades				
+						</h3>
+						</div>
+						<div class="panel-body">
+							<p>Idioma: Ingles, 567 puntos TOEFL.</p>
+							<p>Manejo de Software: Websphere Message Broker, SoapUI, Toad. </p>
+							<p>Otros:ESQL, PL/SQL, Java, SOA, ESB, SOAP, XML</p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+
 		</section>
+
 	</body>
 	</html>
